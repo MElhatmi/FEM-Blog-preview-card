@@ -131,14 +131,15 @@ body {
   border-radius: 0.25rem;
   font-size: 0.875rem;
   color: var(--clr-gray-950);
+  font-weight: 800;
 }
 
 .blog-card__content__title {
   transition: color ease-in 0.2s;
 }
 
-.blog-card:hover,
-.blog-card:focus,
+.blog-card:hover .blog-card__content__title,
+.blog-card:focus .blog-card__content__title,
 .blog-card:active .blog-card__content__title {
   color: var(--clr-yellow);
 }
