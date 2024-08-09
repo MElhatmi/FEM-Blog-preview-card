@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Figtree";
   font-weight: 800; /* ExtraBold */
+  font-display: swap;
   src: url("./assets/fonts/static/Figtree-ExtraBold.woff2") format("woff2"),
     url("./assets/fonts/static/Figtree-ExtraBold.woff") format("woff"),
     url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
@@ -9,6 +10,7 @@
 @font-face {
   font-family: "Figtree";
   font-weight: 500; /* SemiBold */
+  font-display: swap;
   src: url("./assets/fonts/static/Figtree-SemiBold.woff2") format("woff2"),
     url("./assets/fonts/static/Figtree-SemiBold.woff") format("woff"),
     url("./assets/fonts/static/Figtree-SemiBold.ttf") format("truetype");
