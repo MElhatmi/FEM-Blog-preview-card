@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Blog preview card</title>
 
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="container">
+      <div class="blog-card">
+        <img
+          src="/assets/images/illustration-article.svg"
+          alt="article illustration"
+          class="blog-card__img"
+        />
+        <section class="blog-card__content">
+          <div class="blog-card__content__category margin-bottom-12">
+            Learning
+          </div>
+          <div class="blog-card__content__date text-preset-3 margin-bottom-12">
+            Published 21 Dec 2023
+          </div>
+          <h1 class="blog-card__content__title text-preset-1 margin-bottom-12">
+            HTML & CSS foundations
+          </h1>
+          <p class="blog-card__content__description text-preset-2">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation
+          </p>
+        </section>
+        <div class="blog-card__author text-preset-3-bold">
+          <img
+            src="/assets/images/image-avatar.webp"
+            alt="image-avatar"
+            width="32"
+            class="blog-card__author__avatar"
+          />Greg Hooper
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
